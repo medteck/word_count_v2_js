@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Word Counter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <h1 class="page-header text-center">Word Counter</h1>
+
+          <form>
+            <div class="form-group">
+              <input id="phrase" class="form-control" type="text" placeholder="Enter a phrase" required autofocus>
+            </div>
+
+
+            <div class="button-wrapper">
+              <button id="submit-button" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+
+          <div id="result-wrapper">
+            <h4 class="text-center">Your results:</h4>
+            <hr>
+            <p id="result"></p>
+          </div>
+        </div>
+        </div>
+      </div>
+  </body>
+</html>
