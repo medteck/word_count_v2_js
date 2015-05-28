@@ -45,11 +45,11 @@ var sortHash = function(hash) {
 //   }
 //   });
 //   keyArray.forEach(function(key)  {
-//     keyValueArray.push([key, hash[key]])
-//   });
-console.log(keyArray)
-  return keyValueArray;
-};
+// //     keyValueArray.push([key, hash[key]])
+// //   });
+// console.log(keyArray)
+//   return keyValueArray;
+// };
 
 $(function() {
   $("form").submit(function() {
