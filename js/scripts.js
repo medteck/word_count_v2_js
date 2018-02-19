@@ -1,7 +1,7 @@
 var wordCount = function(phrase) {
   var wordCounts = {};
 
-  phrase.split(" ").forEach(function(word) {
+  phrase.split(/[\s,]+/).forEach(function(word) {
     // If no key
     if(!wordCounts[word]) {
       wordCounts[word] = 1;
